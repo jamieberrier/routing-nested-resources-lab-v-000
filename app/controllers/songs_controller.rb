@@ -4,6 +4,8 @@ class SongsController < ApplicationController
       @artist = Artist.find(params[:artist_id])
       if @artist
       #@songs = Artist.find(params[:artist_id]).songs
+      else
+      end
     else
       @songs = Song.all
     end
