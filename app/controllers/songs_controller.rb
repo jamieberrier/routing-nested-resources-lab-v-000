@@ -14,6 +14,8 @@ class SongsController < ApplicationController
   end
 
   def show
+    if params[artist_id]
+    end
     @song = Song.find(params[:id])
   end
 
