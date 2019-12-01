@@ -622,3 +622,4 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 48ms (Views: 43.9ms | ActiveRecord: 0.0ms)
 
 
+  [1m[35m (4.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
