@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   resources :songs
 
   get 'artists/:id/songs', to: 'artists#songs_index'
-  get 'authors/:id/posts/:post_id', to: 'authors#post'
+  get 'artists/:id/songs/:song_id', to: 'artists#song'
 end
