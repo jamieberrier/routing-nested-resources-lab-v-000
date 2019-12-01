@@ -1287,3 +1287,19 @@ Processing by ArtistsController#song as HTML
 Completed 200 OK in 49ms (Views: 17.0ms | ActiveRecord: 3.5ms)
 
 
+Started GET "/artists/1/songs/1" for 104.227.193.90 at 2019-12-01 18:27:01 +0000
+Cannot render console from 104.227.193.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/home/jamieberrier/routing-nested-resources-lab-v-000/config/routes.rb:3: syntax error, unexpected [, expecting do or '{' or '('
+  resources :artists, only [:show] do
+                           ^
+/home/jamieberrier/routing-nested-resources-lab-v-000/config/routes.rb:3: syntax error, unexpected do (for block), expecting end
+...urces :artists, only [:show] do
+...                             ^~
+/home/jamieberrier/routing-nested-resources-lab-v-000/config/routes.rb:6: syntax error, unexpected end, expecting end-of-input
+  end
+  ^~~):
+  
+config/routes.rb:3: syntax error, unexpected [, expecting do or '{' or '('
+config/routes.rb:3: syntax error, unexpected do (for block), expecting end
+config/routes.rb:6: syntax error, unexpected end, expecting end-of-input
